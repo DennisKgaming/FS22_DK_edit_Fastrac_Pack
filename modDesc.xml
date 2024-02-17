@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <author>Bandit36FR</author>
+    <version>1.1.0.0</version>
+	
+    <title>
+        <en>JCB Fastrac Pack DK edit</en>
+		<de>JCB Fastrac Packet DK edit</de>
+		<fr>Pack JCB Fastrac DK edit</fr>
+    </title>
+	
+    <description>
+        <en>
+<![CDATA[JCB has been producing agricultural equipment since 1945. Here are two models with several options.
+
+-option of flashing lights
+-option of tinted windows
+-option of side panels (8330 only)
+-option of rear fenders (8330 only)
+-choice of lighting ramp
+-option led flash 
+-option covering
+-exhaust grid option
+
+ChangeLog:
+V1.1.0.0: 
+-update modDesc
+-removal of some large wheels
+-correction of wheel height
+
+new options:
+-additional of crop sensor isaria
+-addition of michelin and trelleborg twin wheels on 8330
+-addition of nokian tire
+-addition of beacon ramp
+-addition of a border on wide rims (2) (color body)
+-addition of a mirror covering (yellow or white)
+-addition of a new roof covering
+-addition of a warning sign on 4220
+-addition of cibi antenna
+]]></en>
+       
+    </description>
+	
+    <iconFilename>icons/icon_fastrac.dds</iconFilename>
+    <multiplayer supported="true" />
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/fastrac4220.xml"/>
+        <storeItem xmlFilename="xml/fastrac8330.xml"/>
+    </storeItems>
+	
+	<l10n>
+		<text name="configuration_window">
+			<en>Tinted windows</en>
+			<de>Getönte Scheiben</de>
+			<fr>Vitres teintées</fr>
+		</text>
+		<text name="configuration_light">
+			<en>Lighting ramp</en>
+			<de>Lichtleiste</de>
+			<fr>Rampe d'éclairage</fr>
+		</text>
+		<text name="configuration_beacon">
+			<en>Beacons</en>
+			<de>Rundumleuchte</de>
+			<fr>Gyrophares</fr>
+		</text>
+		<text name="configuration_covering">
+			<en>Covering</en>
+			<de>Covering</de>
+			<fr>Covering</fr>
+		</text>
+		<text name="configuration_leds">
+			<en>Flash leds</en>
+			<de>Led Blitzlichter</de>
+			<fr>Flash leds</fr>
+		</text>
+		<text name="configuration_option">
+			<en>grid, warning sign and antenna</en>
+			<de>Gitter, Warnschild und Antenne</de>
+			<fr>Grille, gabarit et antenne</fr>
+		</text>
+		<text name="configuration_fenders">
+			<en>Rear fenders</en>
+			<de>Heckflügel</de>
+			<fr>Ailes arrières</fr>
+		</text>
+		<text name="configuration_roofhood">
+			<en>Hood and roof</en>
+			<de>Dach und Motorhaube</de>
+			<fr>Capot et toit</fr>
+		</text>
+		<text name="configuration_roofhood2">
+			<en>Hood and roof2</en>
+			<de>Dach2 und Motorhaube</de>
+			<fr>Capot et toit2</fr>
+		</text>
+		<text name="configuration_roofhood3">
+			<en>Hood/roof and yellow mirror</en>
+			<de>Dach/Motorhaube und gelber Spiegel</de>
+			<fr>Capot/toit et rétro jaune</fr>
+		</text>
+		<text name="configuration_roofhood4">
+			<en>Hood/roof and mirror</en>
+			<de>Dach/Motorhaube und weißer Spiegel</de>
+			<fr>Capot/toit et rétro blanc</fr>
+		</text>
+		<text name="configuration_roofhood5">
+			<en>Hood/roof2 and yellow mirror</en>
+			<de>Dach2/Motorhaube und gelber Spiegel</de>
+			<fr>Capot/toit2 et rétro jaune</fr>
+		</text>
+		<text name="configuration_roofhood6">
+			<en>Hood/roof2 and mirror</en>
+			<de>Dach2/Motorhaube und weißer Spiegel</de>
+			<fr>Capot/toit2 et rétro blanc</fr>
+		</text>
+		
+		<text name="configuration_colorbody">
+			<en>Body</en>
+			<de>Karosserie</de>
+			<fr>Carrosserie</fr>
+		</text>
+		<text name="configuration_colorgrid">
+			<en>Grid</en>
+			<de>Gitter</de>
+			<fr>Grille</fr>
+		</text>
+		<text name="configuration_colorhood">
+			<en>Hood</en>
+			<de>Motorhaube</de>
+			<fr>Capot</fr>
+		</text>
+		<text name="configuration_colorhood02">
+			<en>Hood and small grid</en>
+			<de>Motorhaube und kleiner Grill</de>
+			<fr>Capot et petite grille</fr>
+		</text>
+		<text name="configuration_colorroof">
+			<en>Roof</en>
+			<de>Dach</de>
+			<fr>Toit</fr>
+		</text>
+		<text name="configuration_colorroof2">
+			<en>Roof02</en>
+			<de>Dach02</de>
+			<fr>Toit02</fr>
+		</text>
+		
+		<text name="configuration_noirMat">
+			<en>Black matte</en>
+			<de>Schwarz matt</de>
+			<fr>Noir mat</fr>
+		</text>
+		<text name="configuration_blancMat">
+			<en>White matte</en>
+			<de>Weiß matte</de>
+			<fr>Blanc mat</fr>
+		</text>
+		<text name="configuration_grisSatin">
+			<en>Satin grey</en>
+			<de>Satin grau</de>
+			<fr>Gris satin</fr>
+		</text>
+		<text name="configuration_orangeSatin">
+			<en>Satin orange</en>
+			<de>Satin orange</de>
+			<fr>Orange satin</fr>
+		</text>
+		<text name="configuration_beigeSatin">
+			<en>Satin beige</en>
+			<de>Satin beige</de>
+			<fr>Beige satin</fr>
+		</text>
+	</l10n>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKvehicles" title="DennisK" type="VEHICLE" img="Categories/CategoryVehicles.png" />
+	
+</modDesc>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R46_axioBib" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="axioBib.dds"/>
+    <File fileId="2" filename="axioBib_normal.png"/>
+    <File fileId="3" filename="axioBib_vmask.png"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="axioBib_mat417" materialId="4" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R46W_axioBib.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="axioBib_IF_750_75R46" visibility="false" nodeId="10">
+        <TransformGroup name="lod" clipDistance="600" nodeId="11" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="12" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_900_65R46" nodeId="14">
+        <TransformGroup name="lod" clipDistance="600" nodeId="15" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" scale="0.9 1 1" nodeId="16" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

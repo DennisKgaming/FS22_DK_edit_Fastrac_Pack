@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R38_axioBib" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="axioBib.dds"/>
+    <File fileId="2" filename="axioBib_normal.png"/>
+    <File fileId="3" filename="axioBib_vmask.dds"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="axioBib_mat409" materialId="4" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R38W_axioBib.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="axioBib_IF_650_65R38" scale="0.9 1 1" nodeId="16">
+        <TransformGroup name="lod" clipDistance="600" nodeId="17" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_650_85R38" nodeId="20">
+        <TransformGroup name="lod" clipDistance="600" nodeId="21" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" nodeId="22" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="23" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_710_60R38" nodeId="24">
+        <TransformGroup name="lod" clipDistance="600" nodeId="25" lodDistance="0 25">
+          <Shape shapeId="5" name="lod0" nodeId="26" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="lod1" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_710_85R38" nodeId="28">
+        <TransformGroup name="lod" clipDistance="600" nodeId="29" lodDistance="0 25">
+          <Shape shapeId="7" name="lod0" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="lod1" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_800_70R38" nodeId="32">
+        <TransformGroup name="lod" clipDistance="600" nodeId="33" lodDistance="0 25">
+          <Shape shapeId="9" name="lod0" nodeId="34" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="lod1" nodeId="35" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>
