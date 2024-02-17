@@ -2,9 +2,9 @@
 <sounds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/vehicle_sounds.xsd">
     <motorized>
         <sounds>
-            <motor template="engineLarge" file="sounds/OpenPipe_v067_loop.gls" volumeScale="1.25" loopSynthesisRPMRatio="0.80"/>
-            <motor template="engineLarge" file="sounds/Turbo_loop.gls" volumeScale="1.15"  loopSynthesisRPMRatio="0.80" innerRadius="1"/>
-			<motor template="engineLarge" file="sounds/OpenPipe_load_v043_loop.gls" volumeScale="1.35"  loopSynthesisRPMRatio="0.80" innerRadius="1"/>
+            <motor template="engineLarge" file="sounds/OpenPipe_v067_loop.gls" volumeScale="1" loopSynthesisRPMRatio="0.80"/>
+            <motor template="engineLarge" file="sounds/Turbo_loop.gls" volumeScale="1"  loopSynthesisRPMRatio="0.80" innerRadius="1"/>
+			<motor template="engineLarge" file="sounds/OpenPipe_load_v043_loop.gls" volumeScale="1"  loopSynthesisRPMRatio="0.80" innerRadius="1"/>
 			<motor file="sounds/BlowOff.ogg" volumeScale="4.0" loopSynthesisRPMRatio="0.80" innerRadius="1">
 			
                 <volume indoor="0.85" outdoor="2.1" >
