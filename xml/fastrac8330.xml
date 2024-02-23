@@ -985,7 +985,7 @@
                 <transmission minForwardGearRatio="9.5" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
             <motorConfiguration name="Fastrac 8330 CT" hp="448" price="2500">
-                <motor torqueScale="1.47" minRpm="850" maxRpm="2200" maxForwardSpeed="73" maxBackwardSpeed="22" brakeForce="14" lowBrakeForceScale="0.22" dampingRateScale="1.7">
+                <motor torqueScale="1.9" minRpm="850" maxRpm="2200" maxForwardSpeed="73" maxBackwardSpeed="22" brakeForce="14" lowBrakeForceScale="0.22" dampingRateScale="1.7">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -996,7 +996,7 @@
                 <transmission minForwardGearRatio="9.5" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
             <motorConfiguration name="Fastrac 8330 CT+" hp="548" price="5000">
-                <motor torqueScale="1.47" minRpm="850" maxRpm="2200" maxForwardSpeed="73" maxBackwardSpeed="22" brakeForce="14" lowBrakeForceScale="0.22" dampingRateScale="1.7">
+                <motor torqueScale="2.3" minRpm="850" maxRpm="2200" maxForwardSpeed="73" maxBackwardSpeed="22" brakeForce="14" lowBrakeForceScale="0.22" dampingRateScale="1.7">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
