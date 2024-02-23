@@ -1405,10 +1405,13 @@
         </material>
     </baseMaterial>
 	
-	<baseMaterialConfigurations title="$l10n_configuration_colorbody" useDefaultColors="true" defaultColorIndex="10" price="2000">
+	<baseMaterialConfigurations title="$l10n_configuration_colorbody" useDefaultColors="true" defaultColorIndex="0" price="2000">
         <material name="fastrac8330_mat" 	shaderParameter="colorMat0"/>
         <material name="liseret_mat" 		shaderParameter="colorMat0"/>
 		
+		<baseMaterialConfiguration name="DennisK Dark Blue"					color="0.005 0.001 0.533" 	/>
+		<baseMaterialConfiguration name="DennisK Light Blue"				color="0.000 0.776 1.000" 	/>
+		<baseMaterialConfiguration name="DennisK Black"						color="0 0 0" 	/>
 		<baseMaterialConfiguration name="$l10n_configuration_noirMat"		color="0.015 0.015 0.015"		material="23" 	price="2500"/>
 		<baseMaterialConfiguration name="$l10n_configuration_blancMat"		color="0.9 0.9 0.9"				material="23" 	price="2500"/>
         <baseMaterialConfiguration name="$l10n_configuration_grisSatin"	  	color="SHARED_GREY2" 			material="27"	price="2500"/>
@@ -1416,18 +1419,18 @@
         <baseMaterialConfiguration name="$l10n_configuration_beigeSatin"	color="MASSEYFERGUSON_BEIGE_1"	material="27"	price="2500"/>
 		<baseMaterialConfiguration name="Orange"							color="0.23 0.07 0 0"			material="0"	price="2000"/>
 		<baseMaterialConfiguration name="Carbon"							color="0.045 0.045 0.045 1" 	material="20"	price="4000"/>
-		<baseMaterialConfiguration name="DennisK Dark Blue"					color="0.005 0.001 0.533" 	/>
-		<baseMaterialConfiguration name="DennisK Light Blue"				color="0.000 0.776 1.000" 	/>
-		<baseMaterialConfiguration name="DennisK Black"						color="0 0 0" 	/>
 		
     </baseMaterialConfigurations>
 	
-	<designMaterialConfigurations title="$l10n_configuration_colorgrid" useDefaultColors="true" defaultColorIndex="10" price="200">
+	<designMaterialConfigurations title="$l10n_configuration_colorgrid" useDefaultColors="true" defaultColorIndex="0" price="200">
         <material name="fastrac8330Grid_mat" shaderParameter="colorMat4"  />
         <material name="fastrac8330Grid_mat" shaderParameter="colorMat5"  />
         <material name="fastrac8330Grid_mat" shaderParameter="colorMat6"  />
         <material name="fastrac8330Grid_mat" shaderParameter="colorMat7"  />
 		
+		<designMaterialConfiguration name="DennisK Light Blue"				color="0.000 0.776 1.000" 	/>
+		<designMaterialConfiguration name="DennisK Dark Blue"				color="0.005 0.001 0.533" 	/>
+		<designMaterialConfiguration name="DennisK Black"					color="0 0 0" 	/>
 		<designMaterialConfiguration name="$l10n_configuration_noirMat"		color="0.015 0.015 0.015"		material="23" 	price="250"/>
 		<designMaterialConfiguration name="$l10n_configuration_blancMat"	color="0.9 0.9 0.9"				material="23" 	price="250"/>
 		<designMaterialConfiguration name="$l10n_configuration_grisSatin"	color="SHARED_GREY2" 			material="27"	price="250"/>
@@ -1435,9 +1438,6 @@
 		<designMaterialConfiguration name="$l10n_configuration_beigeSatin"	color="MASSEYFERGUSON_BEIGE_1" 	material="27"	price="250"/>
 		<designMaterialConfiguration name="Orange"							color="0.23 0.07 0 0"			material="0"	price="200"/>
 		<designMaterialConfiguration name="Carbon"							color="0.045 0.045 0.045 1" 	material="20"	price="400"/>
-		<designMaterialConfiguration name="DennisK Dark Blue"				color="0.005 0.001 0.533" 	/>
-		<designMaterialConfiguration name="DennisK Light Blue"				color="0.000 0.776 1.000" 	/>
-		<designMaterialConfiguration name="DennisK Black"					color="0 0 0" 	/>
 	</designMaterialConfigurations>
 	
 	<designMaterial2Configurations title="$l10n_configuration_colorhood" useDefaultColors="true" defaultColorIndex="8" price="400">
@@ -1471,9 +1471,9 @@
 		<designMaterial3Configuration name="DennisK Black"						color="0 0 0" 	/>
 	</designMaterial3Configurations>
 	
-	<rimColorConfigurations useDefaultColors="true" defaultColorIndex="10" price="1200">
-		<rimColorConfiguration name="Base"							color="0.5 0.5 0.5"				material="27" 	price="0"/>
+	<rimColorConfigurations useDefaultColors="true" defaultColorIndex="0" price="1200">
 		<rimColorConfiguration name="$l10n_configuration_noirMat"	color="0.015 0.015 0.015"		material="23" 	price="1500"/>
+		<rimColorConfiguration name="Base"							color="0.5 0.5 0.5"				material="27" 	price="0"/>
 		<rimColorConfiguration name="$l10n_configuration_blancMat"	color="0.9 0.9 0.9"				material="23" 	price="1500"/>
 		<rimColorConfiguration name="Alu"							color="0.75 0.75 0.75"			material="3" 	price="2400"/>
 		<rimColorConfiguration name="Carbon"						color="0.045 0.045 0.045 1" 	material="20" 	price="2400"/>
