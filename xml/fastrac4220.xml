@@ -298,6 +298,27 @@
                 <size width="5.3"/>
             </wheelConfiguration>
             
+			<wheelConfiguration name="Narrow special" price="1000" brand="MICHELIN" saveId="MICHELIN_NARROW_special">
+                <wheels baseConfig="MICHELIN_DEFAULT">
+                    <wheel filename="wheels/tires/michelin/agriBib2/380_80R38.xml">
+                        <physics suspTravel="0.12" spring="68" yOffset="0.074"/>
+                        <tire isCareWheel="true"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/agriBib2/380_80R38.xml">
+                        <physics suspTravel="0.12" spring="68" yOffset="0.074"/>
+                        <tire isCareWheel="true"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/agriBib2/380_80R38.xml">
+                        <physics yOffset="0.074"/>
+                        <tire isCareWheel="true"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/agriBib2/380_80R38.xml">
+                        <physics yOffset="0.074"/>
+                        <tire isCareWheel="true"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>  
+			
 			<wheelConfiguration name="$l10n_configuration_valueWheelNarrow" price="1000" brand="MICHELIN" saveId="MICHELIN_NARROW">
                 <wheels baseConfig="MICHELIN_DEFAULT">
                     <wheel filename="$data/shared/wheels/tires/michelin/agriBib2/380_80R38.xml">
