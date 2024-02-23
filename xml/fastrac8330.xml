@@ -48,6 +48,337 @@
 	
     <wheels>
         <wheelConfigurations>
+			
+			<wheelConfiguration name="Default Special with ring" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT_SPECIAL2">
+                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                </wheels>
+				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="0.95 0.96 0.96"/>
+				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="0.95 0.96 0.965"/>
+				
+				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="0.9 0.86 0.86"/>
+				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="0.9 0.86 0.86"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Default Special" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT_SPECIAL1">
+                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            
+			<wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT">
+                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml">
+                        <physics restLoad="2.8" yOffset="0.006"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml">
+                        <physics restLoad="2.8"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Wide Special with ring" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD_SPECIAL2">
+                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
+				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
+				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
+				<objectChange node="liseretARG" visibilityActive="true" translationActive="0.015 0 0" scaleActive="1 0.84 0.84"/>
+				<objectChange node="liseretARD" visibilityActive="true" translationActive="-0.015 0 0" scaleActive="1 0.84 0.84"/>
+				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.009 0 0" scaleActive="1 0.79 0.79"/>
+				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.009 0 0" scaleActive="1 0.79 0.79"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Wide Special" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD_SPECIAL1">
+                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
+				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
+				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD">
+                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
+				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
+				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD2">
+                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
+                        <physics restLoad="2.8" yOffset="-0.015"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
+                        <physics restLoad="2.8" yOffset="0.039"/>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
+				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
+				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
+				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
+				<objectChange node="liseretARG" visibilityActive="true" translationActive="0.015 0 0" scaleActive="1 0.84 0.84"/>
+				<objectChange node="liseretARD" visibilityActive="true" translationActive="-0.015 0 0" scaleActive="1 0.84 0.84"/>
+				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.009 0 0" scaleActive="1 0.79 0.79"/>
+				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.009 0 0" scaleActive="1 0.79 0.79"/>
+            </wheelConfiguration>
+						
+			<wheelConfiguration name="Twin Back Special with ring" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK_SPECIAL2">
+                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2">
+                    <wheel/>
+                    <wheel/>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="3.4 0.96 0.96"/>
+				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="3.4 0.96 0.965"/>
+				
+				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="0.9 0.86 0.86"/>
+				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="0.9 0.86 0.86"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Twin Back Special" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK_SPECIAL1">
+                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL1">
+                    <wheel/>
+                    <wheel/>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsBack" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK">
+                <wheels baseConfig="MICHELIN_DEFAULT">
+                    <wheel/>
+                    <wheel/>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Twin All Special with ring" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL_SPECIAL2">
+                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2" ackermannSteeringIndex="3">
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="3.4 0.96 0.96"/>
+				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="3.4 0.96 0.965"/>
+				
+				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="3.2 0.86 0.86"/>
+				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="3.2 0.86 0.86"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="Twin All Special" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL_SPECIAL1">
+                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2" ackermannSteeringIndex="3">
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+            </wheelConfiguration>
+			
+			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsAll" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL">
+                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="3">
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.4"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="2.3"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
+                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
+                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
+                <aiAgent width="4.3"/>
+                <size width="5"/>
+            </wheelConfiguration>
+			
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="TRELLEBORG" saveId="TRELLEBORG_DEFAULT">
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM800/540_65R38_HS.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
@@ -122,336 +453,6 @@
                 <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
                 <aiAgent width="4.3"/>
                 <size width="5"/>
-            </wheelConfiguration>
-            
-			<wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT">
-                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                </wheels>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Default Special 1" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT_SPECIAL1">
-                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                </wheels>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Default Special 2" price="0" brand="MICHELIN" saveId="MICHELIN_DEFAULT_SPECIAL2">
-                <wheels baseConfig="TRELLEBORG_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/650_65R34.xml">
-                        <physics restLoad="2.8" yOffset="0.006"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/machXbib/710_70R38.xml">
-                        <physics restLoad="2.8"/>
-                    </wheel>
-                </wheels>
-				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="0.95 0.96 0.96"/>
-				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="0.95 0.96 0.965"/>
-				
-				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="0.9 0.86 0.86"/>
-				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="0.9 0.86 0.86"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD">
-                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
-				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
-				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD2">
-                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
-				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
-				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
-				<objectChange node="liseretARG" visibilityActive="true" translationActive="0.015 0 0" scaleActive="1 0.84 0.84"/>
-				<objectChange node="liseretARD" visibilityActive="true" translationActive="-0.015 0 0" scaleActive="1 0.84 0.84"/>
-				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.009 0 0" scaleActive="1 0.79 0.79"/>
-				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.009 0 0" scaleActive="1 0.79 0.79"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Wide Special 1" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD_SPECIAL1">
-                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
-				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
-				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Wide Special 2" price="3100" brand="MICHELIN" saveId="MICHELIN_BROAD_SPECIAL2">
-                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="2">
-                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/710_65R30.xml">
-                        <physics restLoad="2.8" yOffset="-0.015"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                    <wheel filename="wheels/tires/michelin/cereXBib2/800_70R32.xml">
-                        <physics restLoad="2.8" yOffset="0.039"/>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.55" maxX="1.55"/>
-				<objectChange node="wheelFrontLeft" translationActive="0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelFrontRight" translationActive="-0.03 0 0" translationInactive="0 0 0"/>
-				<objectChange node="wheelBackLeft" translationActive="1.025 0.628 -1.569" translationInactive="0.99 0.628 -1.569"/>
-				<objectChange node="wheelBackRight" translationActive="-1.025 0.628 -1.569" translationInactive="-0.99 0.628 -1.569"/>
-				<objectChange node="liseretARG" visibilityActive="true" translationActive="0.015 0 0" scaleActive="1 0.84 0.84"/>
-				<objectChange node="liseretARD" visibilityActive="true" translationActive="-0.015 0 0" scaleActive="1 0.84 0.84"/>
-				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.009 0 0" scaleActive="1 0.79 0.79"/>
-				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.009 0 0" scaleActive="1 0.79 0.79"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsBack" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK">
-                <wheels baseConfig="MICHELIN_DEFAULT">
-                    <wheel/>
-                    <wheel/>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Twin Back Special 1" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK_SPECIAL1">
-                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL1">
-                    <wheel/>
-                    <wheel/>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Twin Back Special 2" price="8000" brand="MICHELIN" saveId="MICHELIN_TWIN_BACK_SPECIAL2">
-                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2">
-                    <wheel/>
-                    <wheel/>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-1.25" maxX="1.25"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="3.4 0.96 0.96"/>
-				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="3.4 0.96 0.965"/>
-				
-				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="0.9 0.86 0.86"/>
-				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="0.9 0.86 0.86"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsAll" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL">
-                <wheels baseConfig="MICHELIN_DEFAULT" ackermannSteeringIndex="3">
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="$data/shared/wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Twin All Special 1" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL_SPECIAL1">
-                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2" ackermannSteeringIndex="3">
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-            </wheelConfiguration>
-			
-			<wheelConfiguration name="Twin All Special 2" price="11000" brand="MICHELIN" saveId="MICHELIN_TWIN_ALL_SPECIAL2">
-                <wheels baseConfig="MICHELIN_DEFAULT_SPECIAL2" ackermannSteeringIndex="3">
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.4"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/650_65R34.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.18">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                    <wheel>
-                        <physics restLoad="2.3"/>
-                        <additionalWheel filename="wheels/tires/michelin/machXbib/710_70R38.xml" configId="dual" hasParticles="true" hasTireTracks="true" offset="0.24">
-                            <connector filename="$data/shared/wheels/rims/dual001_1.xml"/>
-                        </additionalWheel>
-                    </wheel>
-                </wheels>
-                <foliageBendingModifier index="1" minX="-2.0" maxX="2.0"/>
-                <foliageBendingModifier index="2" minX="-2.15" maxX="2.15"/>
-                <aiAgent width="4.3"/>
-                <size width="5"/>
-				<objectChange node="liseretARG" visibilityActive="true" translationActive="-0.06 0 0" scaleActive="3.4 0.96 0.96"/>
-				<objectChange node="liseretARD" visibilityActive="true" translationActive="0.06 0 0" scaleActive="3.4 0.96 0.965"/>
-				
-				<objectChange node="liseretAVG" visibilityActive="true" translationActive="-0.05 0 0" scaleActive="3.2 0.86 0.86"/>
-				<objectChange node="liseretAVD" visibilityActive="true" translationActive="0.05 0 0" scaleActive="3.2 0.86 0.86"/>
             </wheelConfiguration>
 			
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="CONTINENTAL" saveId="CONTINENTAL_DEFAULT">
