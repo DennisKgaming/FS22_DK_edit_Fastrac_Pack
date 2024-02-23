@@ -1299,7 +1299,7 @@
                 <transmission minForwardGearRatio="10.2" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
             <motorConfiguration name="Fastrac 4220 CT" hp="285" price="2000" consumerConfigurationIndex="1">
-                <motor torqueScale="0.993" minRpm="850" maxRpm="2200" maxForwardSpeed="65" maxBackwardSpeed="22" brakeForce="7.5" lowBrakeForceScale="0.22">
+                <motor torqueScale="1.2" minRpm="850" maxRpm="2200" maxForwardSpeed="65" maxBackwardSpeed="22" brakeForce="7.5" lowBrakeForceScale="0.22">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -1310,7 +1310,7 @@
                 <transmission minForwardGearRatio="10.2" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
             <motorConfiguration name="Fastrac 4220 CT+" hp="335" price="5000" consumerConfigurationIndex="1">
-                <motor torqueScale="0.993" minRpm="850" maxRpm="2200" maxForwardSpeed="65" maxBackwardSpeed="22" brakeForce="7.5" lowBrakeForceScale="0.22">
+                <motor torqueScale="1.4" minRpm="850" maxRpm="2200" maxForwardSpeed="65" maxBackwardSpeed="22" brakeForce="7.5" lowBrakeForceScale="0.22">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
