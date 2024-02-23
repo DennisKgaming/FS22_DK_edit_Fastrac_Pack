@@ -424,7 +424,7 @@
           </TransformGroup>
           <TransformGroup name="cameras" translation="0 0.3 0" nodeId="209">
             <TransformGroup name="outdoorCameraTarget" translation="-1.89327e-31 1.35 8.52651e-16" rotation="-24 180 0" nodeId="210">
-              <Camera name="outdoorCamera1" translation="0.130533 1.49126 9.91332" rotation="6.87829 -0.208208 -0.09127" nodeId="211" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+              <Camera name="outdoorCamera1" translation="-2.62156 1.7543 -0.469359" rotation="114.995 -53.077 -143.668" nodeId="211" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
             </TransformGroup>
             <Camera name="indoorCamera1" translation="5.62201e-16 2.7 -0.39" rotation="-21 180 0" nodeId="212" fov="60" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
             <TransformGroup name="cameraRaycastNode1" translation="0 1.72108 2.96009" nodeId="213"/>
@@ -769,7 +769,7 @@
                 <Shape shapeId="50" name="Glass0005" translation="3.8147e-08 -2.24099 0.0140357" clipDistance="300" nodeId="477" materialIds="53" castsShadows="true" receiveShadows="true"/>
               </TransformGroup>
               <TransformGroup name="farmInfo" translation="0 -1.731 -0.00903104" nodeId="478">
-                <Shape shapeId="55" name="8330window_back_in" rotation="90 -0 0" nodeId="479" materialIds="16"/>
+                <Shape shapeId="55" name="8330window_back_in" translation="0 0 0.001" rotation="90 -0 0" nodeId="479" materialIds="16"/>
                 <Shape shapeId="56" name="8330window_back_out" translation="0 8.10886e-10 -0.001" rotation="90 -0 0" nodeId="480" materialIds="16"/>
                 <Shape shapeId="57" name="8330window_front_in" translation="0 0 -0.001" rotation="90 -0 0" nodeId="481" materialIds="16"/>
                 <Shape shapeId="58" name="8330window_front_out" translation="0 0 0.001" rotation="90 -0 0" nodeId="482" materialIds="16"/>
