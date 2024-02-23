@@ -424,7 +424,7 @@
           </TransformGroup>
           <TransformGroup name="cameras" translation="0 0.3 0" nodeId="209">
             <TransformGroup name="outdoorCameraTarget" translation="-1.89327e-31 1.35 8.52651e-16" rotation="-24 180 0" nodeId="210">
-              <Camera name="outdoorCamera1" translation="-2.62156 1.7543 -0.469359" rotation="114.995 -53.077 -143.668" nodeId="211" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+              <Camera name="outdoorCamera1" translation="0.177054 3.38314 9.28525" rotation="-11.6847 -0.208003 -0.0915963" nodeId="211" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
             </TransformGroup>
             <Camera name="indoorCamera1" translation="5.62201e-16 2.7 -0.39" rotation="-21 180 0" nodeId="212" fov="60" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
             <TransformGroup name="cameraRaycastNode1" translation="0 1.72108 2.96009" nodeId="213"/>
@@ -584,7 +584,7 @@
                 <TransformGroup name="beaconLightLeft04" translation="0.675323 3.068 -0.449356" rotation="-0.660367 0 1.96181" nodeId="327"/>
                 <TransformGroup name="beaconLightRight04" translation="-0.67571 3.068 -0.449238" rotation="-0.66 0 -1.962" nodeId="328"/>
               </TransformGroup>
-              <TransformGroup name="rampe" translation="0 3.10132 0.663624" rotation="4.616 0 0" visibility="false" nodeId="329"/>
+              <TransformGroup name="rampe" translation="0 3.10132 0.663624" rotation="4.616 0 0" nodeId="329"/>
               <TransformGroup name="rampeGyro01" translation="0 3.085 -0.07" visibility="false" nodeId="330"/>
               <TransformGroup name="rampeGyro02" translation="0 3.085 -0.07" visibility="false" nodeId="331"/>
               <TransformGroup name="beaconLights12" visibility="false" nodeId="332">
@@ -672,6 +672,10 @@
                     <Light name="sidemarkerRed_real" translation="-0.741404 -5.09899e-10 -0.534804" rotation="-4.22158e-11 -69.6857 3.98704e-11" clipDistance="300" nodeId="402" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50.7906" pcssLightDistance="0.66" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="1.75" coneAngle="75" dropOff="2"/>
                   </Light>
                 </TransformGroup>
+                <Light name="lightBar_real" translation="0 3.40132 0.663624" rotation="-175.384 -0 0" clipDistance="300" nodeId="779" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50.7906" pcssLightDistance="0.66" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="100" coneAngle="75" dropOff="2">
+                  <Light name="workingLight_white_real" translation="0.588277 0 0" clipDistance="300" nodeId="780" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50.7906" pcssLightDistance="0.66" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="100" coneAngle="75" dropOff="2"/>
+                  <Light name="workingLight_white_real" translation="-0.588 0 0" clipDistance="300" nodeId="781" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50.7906" pcssLightDistance="0.66" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="100" coneAngle="75" dropOff="2"/>
+                </Light>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="wipers" translation="0 -1.43088 -0.00903104" nodeId="403">

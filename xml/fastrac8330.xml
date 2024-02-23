@@ -689,11 +689,12 @@
             <state lightTypes="0"/>
             <state lightTypes="0 1"/>
             <state lightTypes="0 1 2"/>
+            <state lightTypes="0 1 2 3"/>
         </states>
 		
         <sharedLight linkNode="plateNumberLight01_left"		filename="lights/plateNumberLight01.xml"/>
         <sharedLight linkNode="plateNumberLight01_right" 	filename="lights/plateNumberLight01.xml"/>
-        <sharedLight linkNode="rampe" 						filename="lights/lightBar/LED_lightramp_52.xml" />
+        <sharedLight linkNode="rampe" 						filename="lights/lightBar/LED_lightramp_52.xml" lightTypes="3"/>
 		
         <sharedLight linkNode="frontLight_01" 				filename="lights/rearLight26White.xml" />
         <sharedLight linkNode="frontLight_02" 				filename="lights/rearLight26White.xml" />
@@ -730,6 +731,7 @@
                 <light 			node="interiorLight_real"		lightTypes="0"/>
                 <light 			node="workLightBackHigh1" 		lightTypes="1"/>
                 <light 			node="workLightFrontHigh1" 		lightTypes="2"/>
+                <light 			node="lightBar_real" 			lightTypes="3"/>
                 <light 			node="highBeamHigh" 			lightTypes="3"/>
                 <light 			node="backLightsHigh1" 			lightTypes="0"/>
                 <brakeLight 	node="backLightsHigh1"/>
@@ -785,6 +787,7 @@
             <beaconLight node="rampGyro01" 			filename="lights/beaconRamp/rampMini.xml"/>
             <beaconLight node="rampGyro02" 			filename="lights/beaconRamp/rampMini02.xml"/>
         </beaconLights>
+		
         <dashboards>
             <dashboard displayType="EMITTER" valueType="lightState" 		node="needleRpm" 					lightTypes="0" intensity="0.5" groups="MOTOR_ACTIVE"/>
             <dashboard displayType="EMITTER" valueType="lightState" 		node="needleTemperature" 			lightTypes="0" intensity="0.5" groups="MOTOR_ACTIVE"/>
@@ -1592,6 +1595,7 @@
         <i3dMapping id="interiorLight_01" 					node="0>0|4|2|12|4|0" />		
         <i3dMapping id="interiorLight_02" 					node="0>0|4|2|12|4|1" />
         <i3dMapping id="interiorLight_real" 				node="0>0|4|2|12|5|0" />
+        <i3dMapping id="lightBar_real" 						node="0>0|4|2|12|6" />
 		
         <i3dMapping id="wiperFront" 						node="0>0|4|3|0|0"/>
         <i3dMapping id="wiperFrontPart" 					node="0>0|4|3|0|0|0|0"/>
