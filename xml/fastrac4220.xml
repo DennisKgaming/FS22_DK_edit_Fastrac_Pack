@@ -955,6 +955,7 @@
             <state lightTypes="0"/>
             <state lightTypes="0 1"/>
             <state lightTypes="0 1 2"/>
+            <state lightTypes="0 1 2 3"/>
         </states>
         <sharedLight linkNode="workingLightOval_01_left01" 	filename="lights/workingLight03_left.xml"		lightTypes="2">
             <rotationNode name="rotationNode1" rotation="0 0 -10"/>
@@ -1040,6 +1041,7 @@
                 <light 			node="workLightBackHigh1" 		lightTypes="1"/>
                 <light 			node="workLightFrontHigh1"		lightTypes="2"/>
                 <light 			node="highBeamHigh" 			lightTypes="3"/>
+                <light 			node="lightBar_real" 			lightTypes="3"/>
                 <light 			node="sidemarkerOrange_real" 	lightTypes="0"/>
                 <light 			node="interiorLight_real" 		lightTypes="0"/>
                 <brakeLight 	node="backLightsHigh"/>
@@ -1887,6 +1889,7 @@
         <i3dMapping id="workLightFrontHigh1" 					node="0>0|2|3|2"/>
         <i3dMapping id="workLightBackHigh1" 					node="0>0|2|3|3"/>
         <i3dMapping id="reverseLightBackLow" 					node="0>0|2|3|4"/>
+        <i3dMapping id="lightBar_real" 							node="0>0|2|3|5"/>
         <i3dMapping id="turnLightLeftFront" 					node="0>0|2|4|0"/>
         <i3dMapping id="turnLightRightFront" 					node="0>0|2|4|1"/>
         <i3dMapping id="backLightsHigh" 						node="0>0|2|5|0"/>
